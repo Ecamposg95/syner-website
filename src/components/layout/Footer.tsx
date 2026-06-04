@@ -5,7 +5,7 @@ import { SynerLogoWhite } from '../ui/Logo';
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-brand-bgDark border-t border-brand-border/60 text-brand-ink py-16 px-6 md:px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
         
         {/* Brand Column */}
         <div className="flex flex-col gap-4 text-left">
@@ -28,19 +28,6 @@ export const Footer: React.FC = () => {
             <li><a href="#servicios" className="hover:text-brand-ink transition-colors">Automatización & IA</a></li>
             <li><a href="#servicios" className="hover:text-brand-ink transition-colors">Integración Tecnológica</a></li>
             <li><a href="#servicios" className="hover:text-brand-ink transition-colors">Dashboards & KPIs</a></li>
-          </ul>
-        </div>
-
-        {/* Ecosistema Column */}
-        <div className="flex flex-col gap-4">
-          <h5 className="font-mono text-[10.5px] font-semibold tracking-widest text-brand-inkMutedDark uppercase">
-            Ecosistema
-          </h5>
-          <ul className="flex flex-col gap-2.5 text-sm text-brand-inkMuted">
-            <li><a href="#ecosistema" className="hover:text-brand-ink transition-colors">Atlas Tech</a></li>
-            <li><a href="#ecosistema" className="hover:text-brand-ink transition-colors">SIGMA (GovTech)</a></li>
-            <li><a href="#ecosistema" className="hover:text-brand-ink transition-colors">Atlas Kapital (Venture)</a></li>
-            <li><a href="#ecosistema" className="hover:text-brand-ink transition-colors">Open Cashback</a></li>
           </ul>
         </div>
 
@@ -74,10 +61,22 @@ export const Footer: React.FC = () => {
       {/* Footer Bottom */}
       <div className="max-w-7xl mx-auto pt-8 border-t border-brand-border/40 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-brand-inkMutedDark">
         <span>© 2026 Syner Group · Ciudad de México · Todos los derechos reservados.</span>
-        <div className="flex gap-4">
+        <div className="flex items-center gap-4">
           <a href="#" className="hover:text-brand-inkMuted transition-colors">Aviso de Privacidad</a>
           <span>·</span>
           <a href="#" className="hover:text-brand-inkMuted transition-colors">Términos y Condiciones</a>
+          <span>·</span>
+          <span className="text-brand-inkMutedDark/60">
+            Designed & Powered by{' '}
+            <a
+              href="https://atlastech.mx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-accent hover:text-brand-accentHover transition-colors font-medium"
+            >
+              Atlas Tech
+            </a>
+          </span>
         </div>
       </div>
     </footer>
