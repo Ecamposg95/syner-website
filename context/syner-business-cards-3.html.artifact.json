@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "Grupo Syner — Business Cards (logo oficial)",
+  "entry": "syner-business-cards-3.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-05-13T07:29:05.849Z",
+  "updatedAt": "2026-05-13T07:29:05.861Z",
+  "sourceSkillId": "blog-post",
+  "designSystemId": "default",
+  "metadata": {
+    "identifier": "syner-business-cards",
+    "artifactType": "text/html",
+    "inferred": false
+  }
+}

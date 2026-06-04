@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "Grupo Syner — Business Cards (3 variants)",
+  "entry": "syner-business-cards-2.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-05-13T07:03:52.172Z",
+  "updatedAt": "2026-05-13T07:03:52.183Z",
+  "sourceSkillId": "blog-post",
+  "designSystemId": "default",
+  "metadata": {
+    "identifier": "syner-business-cards",
+    "artifactType": "text/html",
+    "inferred": false
+  }
+}

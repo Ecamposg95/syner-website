@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "Syner Group — Landing institucional",
+  "entry": "syner-group-landing-2.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-05-12T03:46:44.944Z",
+  "updatedAt": "2026-05-12T03:46:44.957Z",
+  "sourceSkillId": "blog-post",
+  "designSystemId": "default",
+  "metadata": {
+    "identifier": "syner-group-landing",
+    "artifactType": "text/html",
+    "inferred": false
+  }
+}

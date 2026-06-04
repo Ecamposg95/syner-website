@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "Semblanza — Humberto A. Villanueva Alvear · Grupo Syner",
+  "entry": "semblanza-humberto-villanueva-2.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-06-02T17:30:41.626Z",
+  "updatedAt": "2026-06-02T17:30:41.638Z",
+  "sourceSkillId": "blog-post",
+  "designSystemId": "default",
+  "metadata": {
+    "identifier": "semblanza-humberto-villanueva",
+    "artifactType": "text/html",
+    "inferred": false
+  }
+}
